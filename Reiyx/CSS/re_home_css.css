@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+*{
+	
+	position: relative;
+    overflow:visible;
+	font-family: 'Montserrat', sans-serif;
+}
+
+:root
+{	
+}
+
+button
+{
+	
+}
+
+/*Home*/
+body
+{
+	background: url("https://i.imgur.com/6ZjrzkU.png");
+	background-size: 100vw;
+	background-repeat: repeat-y;
+}
+
+.Home_Padding_Top
+{
+	height: 8vh;
+}
+
+.Home_Row_1
+{ 
+	height: 30vh;
+}
+
+.Home_Row_2
+{
+	height: 25vh;
+    overflow:hidden;
+}
+.Home_Row_3
+{ 
+	height: 30vh;
+}
+.Home_Padding_Bottom
+{
+	height: 5vh;
+}
+
+img
+{
+	height:100%;
+	object-fit: cover;
+}
+
+.home_text
+{
+	top:20%;
+	position: relative;
+	text-align: center;
+	color: lightgrey;
+}
+
+.home_context
+{
+	top:20%;
+	position: relative;
+	text-align: center;
+	color: lightgrey;
+}
+
+.Temp
+{		
+	position: fixed;
+	top:65%;
+	right:0%;
+	width:250px;
+	height: 250px;
+	background:#F1F1F1;
+	border:thin;
+	z-index: 10;
+	transition: 1s;
+	
+	font-size: 2vh;
+}
+
+/*Button Styles*/
+.MainButton
+{	
+	position: fixed;
+	top:1.5%;
+	left:35vw;
+	width:30vw;
+	height: 4vh;
+	background:#F1F1F1;
+	border:thin;
+	z-index: 10;
+	transition: 1s;
+	
+	font-size: 2vh;
+}
+
+.SkillSetButton
+{		
+	position: fixed;
+	top:1.5%;
+	left:0%;
+	width:40vw;
+	height: 4vh;
+	background:#F1F1F1;
+	border:thin;
+	z-index: 10;
+	transition: 1s;
+
+	font-size: 2vh;
+}
+
+.PortfolioButton
+{	
+	position: fixed;
+	top:1.5%;
+	right:0%;
+	width:40vw;
+	height: 4vh;
+	background:#F1F1F1;
+	border:thin;
+	z-index: 10;
+	transition: 1s;
+	
+	font-size: 2vh;
+}
+
+.Home_Padding_Bottom
+{
+	text-align: center;
+}
+
+.DownButton
+{
+	position: relative;
+	top:2vh;
+	width: 3vh;
+	height: 1.8vh;
+	background-color: transparent;
+	background-image: url("https://i.imgur.com/mThzhes.png");
+	background-size: 3vh 1.8vh;
+	border:none;
+	filter: brightness(60%);
+	
+ 	z-index: 20;
+}
+
+/*Hover Effect*/
+.HoverText
+{
+	display: none;	
+}
+
+.SkillSetButton:hover 
+{		
+	background:#FAFAFA;
+}
+
+.MainButton:hover
+{		
+	background:#FAFAFA;
+}
+
+.PortfolioButton:hover 
+{		
+	background:#FAFAFA;
+}
+
+.MainButton:hover .OriText
+{		
+	display: none;	
+}
+
+.MainButton:hover .HoverText
+{		
+	display: inline;	
+}
+
+/*Section Setup*/
+.section_home
+{
+	position: relative;
+	height:100vh;
+	
+}
+
+.section_aboutme
+{
+	position: relative;
+	font-size: 10px;
+	opacity: 1;
+	left:0px;
+}
+
+.section_skillset
+{
+	position: relative;
+	height:100vh;
+}
+.section_portfolio
+{
+	position: relative;
+	height:auto;
+}
+
+.copyright
+{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 1.5vh;
+}
+
+.Header
+{
+	left:10vw;
+	width: 80vw;
+	height:5vh;
+	text-align: left;
+	color:whitesmoke;
+	font-size: 5vh
+}
+
+.Texts_Profile_DoubleCol_Left
+{
+	position:relative;
+	left:10vw;
+	text-align: justify;
+	top:5vh;
+	width:80vw;
+	color:lightgray;
+	font-size: 1.5vh;
+}
+
+
+.minime
+{
+	position:static;
+	height: 8vh;
+	right: 10vw;
+}
+
+/*Skillset Menu*/
+.skillcat {
+  background-color: #333;
+  color: white;
+  overflow: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.skillcat a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.skillcat a:hover {
+  color: black;
+  background-color: #777;
+}
+
+.iframe_skill{
+	width: 100vw;
+	height: 70vh;
+	border: none;
+}
+
+.iframe_skill#coding
+{
+	display: inline;
+}
+
+.iframe_skill#modelling
+{
+	display: none;
+}
+
+.iframe_skill#gamedev
+{
+	display: none;
+}
+
+.iframe_skill#graphic
+{
+	display: none;
+}
+
+.iframe_skill#video
+{
+	display: none;
+}
+
+.iframe_skill#misc
+{
+	display: none;
+}
+
+.Portfolio
+{
+	left:10vw;
+	width: 85vw;
+}
+
+.subHeading
+{
+	color: lightgrey;	
+	width: 80vw;
+}
+
+.DigitalArt
+{
+	Height: 400px;
+	width: 80vw;
+	
+    overflow-x: auto;
+    overflow-y: none;
+    white-space: nowrap;
+	
+}
+
+.Videos
+{
+	Height: 350px;
+	width: 80vw;
+	
+    overflow-x: auto;
+    overflow-y: none;
+    white-space: nowrap;
+	
+}
+
+
+.itchio
+{	
+	width: 40vw;
+}

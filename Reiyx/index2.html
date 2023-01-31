@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<style>
+		img 
+		{
+   	 		max-width: 100%;
+    		height: auto;
+		}
+	</style>
+	
+	<title>ReiyxReicus</title>
+	
+	<!--CSS-->
+	<link href="CSS/re_home_css.css" rel="stylesheet" type="text/css">
+	
+	<!--Gallery-->
+	<link href="CSS/re_home_slider_css.css" rel="stylesheet">
+	
+	<!--Jump to-->
+	<script type="text/javascript" src="js/ScrollDown.js">	
+	</script>		
+		
+	<!-- AOS -->	
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<!-- Bootstraps -->	
+	<link href="CSS/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
+	
+	<!-- Fontface -->	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	
+	<!-- Preload-->
+	<!--
+	<link rel="preload" href="HTML5/skill_coding.html" as="document">
+	<link rel="preload" href="HTML5/skill_gamedev.html" as="document">
+	<link rel="preload" href="HTML5/skill_3D.html" as="document">
+	<link rel="preload" href="HTML5/skill_graphic.html" as="document">
+	<link rel="preload" href="HTML5/skill_video.html" as="document">
+	<link rel="preload" href="HTML5/skill_misc.html" as="document">
+	-->
+	<!--Header Buttons-->
+	<span class="SkillSet">
+		<button type="button" class="SkillSetButton" onClick="smoothScroll(document.getElementById('section_skillset'))" data-aos="fade-down" data-aos-delay="700">
+			SKILL SETS
+		</button>
+	</span>
+	
+	<span class="Portfolio">
+		<button type="button" class="PortfolioButton" onClick="smoothScroll(document.getElementById('section_portfolio'))" data-aos="fade-down" data-aos-delay="700">
+			PORTFOLIO
+		</button>
+	</span>
+	
+	<button type="button" class="MainButton" onClick="smoothScroll(document.getElementById('section_aboutme'))" data-aos="fade-down" data-aos-delay="700">		
+		<span class="OriText">
+			REIYX
+		</span>			
+		<span class="HoverText">
+			ABOUT ME
+		</span>		
+	</button>
+	
+</head>
+
+<body>	
+<!--<img class="Temp" src="https://i.imgur.com/5SzlMg6.png" >-->
+	<!--Contents-->
+	<!--------------------------------------Home------------------------------------------------>
+	<section class="section_home" id="section_home" >
+		<div class="_Home">
+			
+			<div class = "Home_Padding_Top">
+			</div>
+			
+			
+			<div class = "Home_Row_1" style="text-align: center;" >
+				<div class ="Row_1_Slider" data-aos="fade-down" data-aos-delay="1000"> 
+				</div>
+			</div>
+			
+			
+			<div class = "Home_Row_2">
+				<div class="home_text" id="home_text" data-aos="flip-left" data-aos-easing="ease" data-aos-delay="1800" style="font-size:6.8vh">
+				Reiyx Reicus
+				</div>	
+				<div class="home_context" id="home_context" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="2000" style="font-size:1.9vh">
+				An Indie Game Developer
+				</div>
+			</div>
+			
+			
+			<div class = "Home_Row_3" style="text-align: center;">
+				<div class ="Row_3_Slider" data-aos="fade-up" data-aos-delay="1000"> </div>
+				
+			</div>		
+			
+			<div class = "Home_Padding_Bottom"> 
+				<button class="DownButton" onClick="smoothScroll(document.getElementById('section_aboutme'))" data-aos="fade-down" data-aos-anchor="#home_text" data-aos-delay="2100">
+			
+				</button>
+			</div>
+			
+		</div>
+	</section>
+	
+	<!--------------------------------------About Me------------------------------------------------>	
+	<section class="section_aboutme" id="section_aboutme" style="text-align: center;">
+		<div class="Home_Padding_Top"></div>
+		<div class="Header" data-aos="fade-up" data-aos-anchor="#section_aboutme" data-aos-delay="200">
+		<img alt="" class="minime" src="Images/Me.png" style="text-align: right;"> About Me	
+		</div>
+		<div>		
+			<div class="Texts_Profile_DoubleCol_Left" data-aos="fade-right" data-aos-anchor="#section_aboutme" data-aos-delay="250" ><br>
+			  <p> My name is Reiyx, currently a solo Indie Game Developer from Malaysia. I'm pretty much a classic Otaku, likes to play game and watching animes. </p>
+			  <p>I mainly develop games on Unity, because I like how much freedom it gives to us, but for Unreal Engine currently just a glimpse on it, didn't really made a game with it yet.</p>
+			  <p>There's only one life, and I picked the path of Game Development, and all I need to do now is keep walking down this path that I chosen, as Far as Possible</p>
+			  <br>
+			</div>
+			<br>
+			<div class = "Home_Padding_Bottom"> 
+				<br>
+				<button class="DownButton" onClick="smoothScroll(document.getElementById('section_skillset'))" data-aos="fade-down" data-aos-anchor="#section_aboutme" data-aos-delay="500">
+			
+				</button>
+			</div>
+		</div>
+		
+	</section>
+
+
+	<!--------------------------------------Skill Set------------------------------------------------>	
+	<section class="section_skillset" id="section_skillset" >	
+		<div class="Home_Padding_Top"></div>
+		<div class="Header" data-aos="fade-up">
+		Skillsets	
+		</div>	
+		<div class="Texts" data-aos="fade-right">
+		<br>
+		<br>
+			<!--
+			<div class="skillcat">
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_coding.html')" onclick="onclick_iframesrc('HTML5/skill_coding.html')">Coding</a>
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_gamedev.html')" onclick="onclick_iframesrc('HTML5/skill_gamedev.html')">Game Development</a>
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_3D.html')" onclick="onclick_iframesrc('HTML5/skill_3D.html')">3D Modelling</a>
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_graphic.html')" onclick="onclick_iframesrc('HTML5/skill_graphic.html')">Graphic</a>
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_video.html')" onclick="onclick_iframesrc('HTML5/skill_video.html')">Video</a>
+			  <a onMouseOver="onclick_iframesrc('HTML5/skill_misc.html')" onclick="onclick_iframesrc('HTML5/skill_misc.html')">Other</a>
+			</div>
+			
+			<iframe id="iframe_skillset" class="iframe_skill" src="HTML5/skill_coding.html"> </iframe>
+			-->
+			
+			<div class="skillcat">
+			  <a onMouseOver="onclick_showiframe('coding')" 	onclick="onclick_showiframe('coding')">Coding</a>
+			  <a onMouseOver="onclick_showiframe('gamedev')" 	onclick="onclick_showiframe('gamedev')">Game Development</a>
+			  <a onMouseOver="onclick_showiframe('modelling')"	onclick="onclick_showiframe('modelling')">3D Modelling</a>
+			  <a onMouseOver="onclick_showiframe('graphic')"	onclick="onclick_showiframe('graphic')">Graphic</a>
+			  <a onMouseOver="onclick_showiframe('video')"		onclick="onclick_showiframe('video')">Video</a>
+			</div>
+			
+			<iframe id="coding" class="iframe_skill" src="HTML5/skill_coding.html"> </iframe>
+			<iframe id="gamedev" class="iframe_skill" src="HTML5/skill_gamedev.html"> </iframe>
+			<iframe id="graphic" class="iframe_skill" src="HTML5/skill_graphic.html"> </iframe>
+			<iframe id="video" class="iframe_skill" src="HTML5/skill_video.html"> </iframe>
+			<iframe id="modelling" class="iframe_skill" src="HTML5/skill_3D.html"> </iframe>
+			
+		</div>
+		<br>
+		<div class="Home_Padding_Bottom">
+		
+		<button class="DownButton" onClick="smoothScroll(document.getElementById('section_portfolio'))" data-aos="fade-down" data-aos-anchor="#section_aboutme" data-aos-delay="500">
+
+		</button>
+			
+		</div>
+		<br>
+			
+		<div class="Home_Padding_Bottom">
+		
+		</div>
+		
+	</section>
+	
+	<!--------------------------------------Portfolio------------------------------------------------>	
+	<section class="section_portfolio" id="section_portfolio">
+		<div class="Home_Padding_Top"></div>
+		<br>
+		
+			<div class="Header" data-aos="fade-up">	
+				Portfolio
+			</div>	
+			<br>
+			<br>
+			<div class = "Portfolio" data-aos="fade-right">
+			
+			<h3 class = "subHeading">Game</h3>
+			
+			<br>
+			<iframe class="itchio" frameborder="0" src="https://itch.io/embed/1564732?bg_color=232323&amp;fg_color=ffffff&amp;link_color=ffe225" width="40vw" height="167"><a href="https://reiyx.itch.io/cubey-roll">Cubey Roll by Reiyx</a></iframe>
+
+			<iframe class="itchio" frameborder="0" src="https://itch.io/embed/1557925?bg_color=202020&amp;fg_color=ffffff&amp;link_color=00f2d1" width="40vw" height="167"><a href="https://reiyx.itch.io/re-infiltration" >Re: Infiltration by Reiyx</a></iframe>
+			<br>
+			<iframe class="itchio" frameborder="0" src="https://itch.io/embed/719205?bg_color=202020&amp;fg_color=ffffff" width="40vw" height="167"><a href="https://reiyx.itch.io/time-skipper">Time_Skipper_ by Reiyx</a></iframe>
+
+			<iframe class="itchio" frameborder="0" src="https://itch.io/embed/1557921?bg_color=232323&amp;fg_color=ffffff" width="40vw" height="167"><a href="https://reiyx.itch.io/earthquake">EARTHQUAKE by Reiyx, SirDanini, kzyong</a></iframe> 
+			
+			
+			<h3 class = "subHeading">Digital Art</h3>
+						
+			<iframe class="DigitalArt" src="HTML5/Portfolio_Art.html" frameBorder="0"> </iframe>
+				
+			<h3 class = "subHeading">Video Editing</h3>
+						
+			<iframe class="Videos" src="HTML5/Portfolio_Video.html" frameBorder="0"> </iframe>
+			
+		</div>
+		
+		<div class="Texts" data-aos="fade-right">
+		</div>
+		<div class="Home_Padding_Bottom"></div>
+	</section>
+	
+	
+	<!--------------------------------------Scripts------------------------------------------------>	
+    <script src="js/skillcat_iframe.js"></script>	
+	
+    <script src="js/jquery-3.3.1.min.js"></script>	
+	
+	<script src="js/bootstrap-4.2.1.js"></script>
+	
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<script src="js/popper.min.js"></script>
+	
+	<script>  	
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 500
+			});		
+	</script>
+	
+	<script>
+			hljs.initHighlightingOnLoad();
+
+			$('.hero__scroll').on('click', function(e) {
+				$('html, body').animate({
+					scrollTop: $(window).height()
+				}, 1200);
+			});
+	</script>
+	
+</body>
+
+<footer>
+	<section class="copyright" id="copyright">	
+		&copy Reiyx Site 2022  | <a href="mailto:reiyxreicus@gmail.com">Email Me</a> |  <a href="https://www.linkedin.com/in/reiyx-k-5391bb126/">LinkedIn</a> | <a href="https://www.pixiv.net/en/users/10618782">Pixiv</a> | <a href="https://reiyx.itch.io/">itch.io</a>  |  <a href="https://www.youtube.com/channel/UCZXR4rBaqWgBhV4TyBN755g">YouTube</a> 
+		<br>
+	</section>
+		
+	
+</footer>
+	
+</html>

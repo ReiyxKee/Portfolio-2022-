@@ -1,0 +1,86 @@
+/* CSS Document */
+
+body{
+	background-color: transparent;
+	text-align: center;
+	color: lightgray;
+	font-family: 'Montserrat', sans-serif;
+	font-size-adjust: auto;
+}
+
+
+@media screen and (min-width: 1081px) {
+	
+	.skill_icon
+	{		
+		width: 25vh;
+	}
+.width {
+}
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+	.skill_icon
+	{		
+		width: 15vw;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	body
+	{
+	font-size: 5vh;
+	}
+	
+	.sub{
+	font-size: 3.75vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body 
+	{
+	font-size: 8vw;
+	}
+	
+	.sub{		
+		font-size: 5vw;
+	}
+}
+
+.container{
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%, -65%);
+	transform: translate(-50%, 0);
+	width: 100%;
+}
+
+.skill_icon{
+	max-width: 250px;
+	max-height: 250px;
+}
+
+
+.thumbnail
+{
+	height : auto;
+	vertical-align: middle;
+	text-align: center;
+    white-space: nowrap;
+}
+
+.thumbnail .pixiv-embed-title
+{ display: none; }
+
+.thumbnail .pixiv-embed-meta 
+{ display: none; }
+
+.thumbnail .pixiv-embed 
+{ 
+	display: inline-block;
+}
